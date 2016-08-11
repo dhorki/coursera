@@ -16,6 +16,9 @@ section {
 	border: 2px solid black;
 	background-color: #9A9691;
 	font-size: 1.25em;
+	float: left;
+	padding: 40px 20px 20px;
+	margin-bottom: 20px;
 }
 
 .menuTitle {
@@ -23,11 +26,12 @@ section {
 	width: 120px;
 	text-align: center;
 	position: absolute;
-	top: 0px;
+	right: -2px;
+	top: -2px;
 }
 
-.menuTitle > p {
-	padding-top: 50px
+.menuText {
+	clear:both;
 }
 
 #chickenTitle {
