@@ -1,0 +1,53 @@
+h1 {
+	font-size: 22px;
+	margin-top: -1px;
+	font-weight: bold;
+	color: black;
+}
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+}
+#main-content {
+	padding: 15px 30px;
+}
+.food-section {
+	background-color: #999;
+}
+.food-section > div {
+	padding: 5px;
+	font-weight: bold;
+}
+.food-section > p {
+	padding: 12px;
+}
+#collapsable-nav {
+	border: 1px solid;
+	padding: 0px;
+}
+#collapsable-nav ul {
+	padding: 0px;
+	margin: 0px;
+}
+#collapsable-nav ul>li {
+	background-color: #FFF;
+	border: 1px solid;
+	padding: 0px;
+	margin: 0px;
+}
+#collapsable-nav ul>li>a {
+	padding: 5px;
+}
+
+/********** small devices and up **********/
+@media (min-width: 768px) {
+	#collapsable-nav {
+		display: none !important;
+	}
+}
+/********** small devices **********/
+@media (max-width: 768px) {
+	#main-content {
+		padding: 15px 100px;
+	}
+}
