@@ -23,8 +23,10 @@ function LunchCheckController($scope) {
 
       var difMessage = ""
       difMessage = dif > 0 ? " (" + dif + " empty items not counted)" : "";
-
-      if (count <= 3) {
+      if (count == 0) {
+        $scope.message = "Please enter data first" + difMessage;
+        $scope.format = "red";
+      } else if (count <= 3) {
         $scope.message = "Enjoy!" + difMessage;
         $scope.format = "green";
       } else {
