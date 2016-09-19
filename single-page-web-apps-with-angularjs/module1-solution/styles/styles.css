@@ -1,0 +1,16 @@
+.message {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.green {
+  color: #00FF00;
+  border: 3px solid;
+  border-color: #00FF00;
+}
+
+.red {
+  color: #FF0000;
+  border: 3px solid;
+  border-color: #FF0000;
+}
